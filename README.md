@@ -139,7 +139,7 @@ Have python install in your local system. (Select python version 3.10)
     <img alt="Image Alt Text" src="http://i0.wp.com/www.alphr.com/wp-content/uploads/2021/11/2-46.png?w=398&ssl=1">
    </picture>
    
-5. If you find a path like ```sh C:\Python39\Scripts``` (depending on your Python version), the path was added to the PATH variable.
+5. If you find a path like ```C:\Python39\Scripts``` (depending on your Python version), the path was added to the PATH variable.
    If pip hasn’t been added, try the next fix.
 
 #### Fix 2: Add Pip to the PATH Environment Variable
@@ -153,7 +153,7 @@ Add pip to the PATH using Windows GUI:
       <img alt="Image Alt Text" src="http://i0.wp.com/www.alphr.com/wp-content/uploads/2021/11/2-45.png?w=398&ssl=1">
    </picture>
    
-2. Type in ```sh sysdm.cpl``` and press Enter to access System Properties.
+2. Type in ```sysdm.cpl``` and press Enter to access System Properties.
 
    <picture>
       <img alt="Image Alt Text" src="http://i0.wp.com/www.alphr.com/wp-content/uploads/2021/11/5-27.png?w=394&ssl=1">
@@ -177,7 +177,7 @@ Add pip to the PATH using Windows GUI:
       <img alt="Image Alt Text" src="http://i0.wp.com/www.alphr.com/wp-content/uploads/2021/11/7-20.png?w=606&ssl=1">
    </picture>
    
-6. Click on New to add the pip installation path. The default location is: ```sh C:\users\“your-username“\AppData\Programs\Python\Python39``` for Python 3.9.
+6. Click on New to add the pip installation path. The default location is: ```C:\users\“your-username“\AppData\Programs\Python\Python39``` for Python 3.9.
 
    <picture>
       <img alt="Image Alt Text" src="http://i0.wp.com/www.alphr.com/wp-content/uploads/2021/11/7-20.png?w=606&ssl=1">
