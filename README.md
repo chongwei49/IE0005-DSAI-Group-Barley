@@ -116,26 +116,31 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+Have python install in your local system. (Select python version 3.10)
+1. Python
   ```sh
-  npm install npm@latest -g
+  https://www.python.org/
+  ```
+2. After installation, Open the Run dialog box by pressing the Windows key + R.
+  ```sh
+  https://i0.wp.com/www.alphr.com/wp-content/uploads/2021/11/1-44.png?w=398&ssl=1
   ```
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Clone the repo
+   ```sh
+   git clone https://github.com/chongwei49/IE0005-DSAI-Group-Barley.git
+   ```
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/chongwei49/IE0005-DSAI-Group-Barley.git
    ```
-3. Install NPM packages
+2. Install Jupyter Notebook
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
+3. Enter your API in `config.js`
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
