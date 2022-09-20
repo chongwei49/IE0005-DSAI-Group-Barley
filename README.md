@@ -35,7 +35,6 @@
   <h3 align="center">Flight Price Prediction Project</h3>
 
   <p align="center">
-    Flight Price Prediction Project
     <br />
     <a href="https://github.com/chongwei49/IE0005-DSAI-Group-Barley"><strong>Explore the docs »</strong></a>
     <br />
