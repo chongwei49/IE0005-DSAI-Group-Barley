@@ -186,20 +186,16 @@ Add pip to the PATH using Windows GUI:
 ### Installation
 
 1. Clone the repo
-   ```sh
-   git clone https://github.com/chongwei49/IE0005-DSAI-Group-Barley.git
    ```
-2. Clone the repo
-   ```sh
    git clone https://github.com/chongwei49/IE0005-DSAI-Group-Barley.git
    ```
 2. Install Jupyter Notebook
-   ```sh
-   npm install
    ```
-3. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+   pip install notebook
+   ```
+3. To run the notebook
+   ```
+   jupyter notebook
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
