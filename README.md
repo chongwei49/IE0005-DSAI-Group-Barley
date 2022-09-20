@@ -122,8 +122,9 @@ Have python install in your local system. (Select python version 3.10)
   https://www.python.org/
   ```
 2. After installation, Open the Run dialog box by pressing the Windows key + R.
-
-  [![Pre-reg-1](Pre-reg-1)](#)
+  <picture>
+    <img alt="Image Alt Text" src="http://i0.wp.com/www.alphr.com/wp-content/uploads/2021/11/1-44.png?w=398&ssl=1">
+  </picture>
 
 ### Installation
 
