@@ -28,7 +28,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/chongwei49/IE0005-DSAI-Group-Barley">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -82,8 +82,6 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
@@ -298,8 +296,6 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-url]: https://github.com/chongwei49/IE0005-DSAI-Group-Barley/issues
 [license-shield]: https://img.shields.io/github/license/chongwei49/IE0005-DSAI-Group-Barley.svg?style=for-the-badge
 [license-url]: https://github.com/chongwei49/IE0005-DSAI-Group-Barley/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
