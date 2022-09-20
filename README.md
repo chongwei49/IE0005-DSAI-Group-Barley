@@ -122,10 +122,50 @@ Have python install in your local system. (Select python version 3.10)
   https://www.python.org/
   ```
 2. After installation, Open the Run dialog box by pressing the Windows key + R.
-  <picture>
-    <img alt="Image Alt Text" src="http://i0.wp.com/www.alphr.com/wp-content/uploads/2021/11/1-44.png?w=398&ssl=1">
-  </picture>
+   <picture>
+     <img alt="Image Alt Text" src="http://i0.wp.com/www.alphr.com/wp-content/uploads/2021/11/1-44.png?w=398&ssl=1">
+   </picture>
+3. Type cmd and hit Enter.
+   <picture>
+    <img alt="Image Alt Text" src="http://i0.wp.com/www.alphr.com/wp-content/uploads/2021/11/2-45.png?w=398&ssl=1">
+   </picture>
+4. For a list of all the locations added to your PATH variable, type echo %PATH% into the command prompt, then press Enter.
+   <picture>
+    <img alt="Image Alt Text" src="http://i0.wp.com/www.alphr.com/wp-content/uploads/2021/11/2-46.png?w=398&ssl=1">
+   </picture>
+5. If you find a path like ```sh C:\Python39\Scripts``` (depending on your Python version), the path was added to the PATH variable.
+   If pip hasn’t been added, try the next fix.
 
+#### Fix 2: Add Pip to the PATH Environment Variable
+Here’s how to manually add pip to the PATH environment using the Windows GUI and command prompt. Once the path has been added, open a new command window and try to install a pip package to see whether the problem was solved.
+
+Add pip to the PATH using Windows GUI:
+
+1. Open the Run dialog box by pressing the Windows key + R.
+   <picture>
+      <img alt="Image Alt Text" src="http://i0.wp.com/www.alphr.com/wp-content/uploads/2021/11/2-45.png?w=398&ssl=1">
+   </picture>
+2. Type in ```sh sysdm.cpl``` and press Enter to access System Properties.
+   <picture>
+      <img alt="Image Alt Text" src="http://i0.wp.com/www.alphr.com/wp-content/uploads/2021/11/5-27.png?w=394&ssl=1">
+   </picture>
+3. Select the Advanced tab, then Environment Variables.
+   <picture>
+      <img alt="Image Alt Text" src="http://i0.wp.com/www.alphr.com/wp-content/uploads/2021/11/6-27.png?w=405&ssl=1">
+   </picture>
+4. Go to System variables and select Path.
+   <picture>
+      <img alt="Image Alt Text" src="http://i0.wp.com/www.alphr.com/wp-content/uploads/2021/11/8-15.png?w=606&ssl=1">
+   </picture>
+5. Click the Edit button.
+   <picture>
+      <img alt="Image Alt Text" src="http://i0.wp.com/www.alphr.com/wp-content/uploads/2021/11/7-20.png?w=606&ssl=1">
+   </picture>
+6. Click on New to add the pip installation path. The default location is: ```sh C:\users\“your-username“\AppData\Programs\Python\Python39``` for Python 3.9.
+   <picture>
+      <img alt="Image Alt Text" src="http://i0.wp.com/www.alphr.com/wp-content/uploads/2021/11/7-20.png?w=606&ssl=1">
+   </picture>
+   
 ### Installation
 
 1. Clone the repo
