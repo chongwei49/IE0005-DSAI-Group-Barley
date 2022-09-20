@@ -122,7 +122,7 @@ Have python install in your local system. (Select python version 3.10)
   https://www.python.org/
   ```
 2. After installation, Open the Run dialog box by pressing the Windows key + R.
-   ![alt text]([http://url/to/img.png](https://i0.wp.com/www.alphr.com/wp-content/uploads/2021/11/1-44.png?w=398&ssl=1))
+   * [![Run-cmd][Pre-reg-1]]
 
 ### Installation
 
@@ -264,3 +264,5 @@ Use this space to list resources you find helpful and would like to give credit 
 [JQuery-url]: https://jquery.com 
 [Python.org]: https://img.shields.io/badge/Python-0769AD?style=for-the-badge&logo=python&logoColor=yellow
 [Python-url]: https://python.org 
+[Pre-reg-1]: https://i0.wp.com/www.alphr.com/wp-content/uploads/2021/11/1-44.png?w=398&ssl=1
+[Pre-reg-2]: https://i0.wp.com/www.alphr.com/wp-content/uploads/2021/11/2-45.png?w=398&ssl=1
