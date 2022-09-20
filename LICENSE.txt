@@ -1,4 +1,4 @@
-NTU License
+MIT License
 
 Copyright (c) 2022 Chongwei Luo
 
