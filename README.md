@@ -122,7 +122,7 @@ Have python install in your local system. (Select python version 3.10)
   https://www.python.org/
   ```
 2. After installation, Open the Run dialog box by pressing the Windows key + R.
-   * [![Run-cmd][Pre-reg-1]]
+   [Pre-reg-1]
 
 ### Installation
 
