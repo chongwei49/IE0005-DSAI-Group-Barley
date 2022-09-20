@@ -83,14 +83,37 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+The objective of the study is to analyse the flight booking dataset obtained from “Ease My Trip” website and to conduct various statistical hypothesis tests in order to get meaningful information from it. The 'Linear Regression' statistical algorithm would be used to train the dataset and predict a continuous target variable. 'Easemytrip' is an internet platform for booking flight tickets, and hence a platform that potential passengers use to buy tickets. A thorough study of the data will aid in the discovery of valuable insights that will be of enormous value to passengers.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+#### Research Questions
+* Does price vary with Airlines?
+* How is the price affected when tickets are bought in just 1 or 2 days before departure?
+* Does ticket price change based on the departure time and arrival time?
+* How the price changes with change in Source and Destination?
+* How does the ticket price vary between Economy and Business class?
 
-Use the `BLANK_README.md` to get started.
+#### DATA COLLECTION AND METHODOLOGY
+Octoparse scraping tool was used to extract data from the website. Data was collected in two parts: one for economy class tickets and another for business class tickets. A total of 300261 distinct flight booking options was extracted from the site. Data was collected for 50 days, from February 11th to March 31st, 2022.
+Data source was secondary data and was collected from Ease my trip website.
+
+
+#### Dataset
+Dataset contains information about flight booking options from the website Easemytrip for flight travel between India's top 6 metro cities. There are 300261 datapoints and 11 features in the cleaned dataset.
+
+#### FEATURES
+
+The various features of the cleaned dataset are explained below:
+* Airline: The name of the airline company is stored in the airline column. It is a categorical feature having 6 different airlines.
+* Flight: Flight stores information regarding the plane's flight code. It is a categorical feature.
+* Source City: City from which the flight takes off. It is a categorical feature having 6 unique cities.
+* Departure Time: This is a derived categorical feature obtained created by grouping time periods into bins. It stores information about the departure time and have 6 unique time labels.
+* Stops: A categorical feature with 3 distinct values that stores the number of stops between the source and destination cities.
+* Arrival Time: This is a derived categorical feature created by grouping time intervals into bins. It has six distinct time labels and keeps information about the arrival time.
+* Destination City: City where the flight will land. It is a categorical feature having 6 unique cities.
+* Class: A categorical feature that contains information on seat class; it has two distinct values: Business and Economy.
+* Duration: A continuous feature that displays the overall amount of time it takes to travel between cities in hours.
+* Days Left: This is a derived characteristic that is calculated by subtracting the trip date by the booking date.
+* Price: Target variable stores information of the ticket price.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -296,7 +319,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-url]: https://github.com/chongwei49/IE0005-DSAI-Group-Barley/issues
 [license-shield]: https://img.shields.io/github/license/chongwei49/IE0005-DSAI-Group-Barley.svg?style=for-the-badge
 [license-url]: https://github.com/chongwei49/IE0005-DSAI-Group-Barley/blob/master/LICENSE.txt
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/screenshot_flight.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
