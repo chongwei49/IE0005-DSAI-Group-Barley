@@ -124,6 +124,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 * [![Python][Python.org]][Python-url]
 * [![Jupyter][Jupyter.org]][Jupyter-url]
+* [![Numpy][Numpy.org]][Numpy-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -340,5 +341,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [Jupyter-url]: https://jupyter.org/
 [Python.org]: https://img.shields.io/badge/Python-0769AD?style=for-the-badge&logo=python&logoColor=yellow
 [Python-url]: https://python.org 
+[Numpy.org]: https://img.shields.io/badge/NUMPY-white?style=for-the-badge&logo=numpy&logoColor=blue
+[Numpy-url]: https://numpy.org 
 [Pre-reg-1]: https://i0.wp.com/www.alphr.com/wp-content/uploads/2021/11/1-44.png?w=398&ssl=1
 [Pre-reg-2]: https://i0.wp.com/www.alphr.com/wp-content/uploads/2021/11/2-45.png?w=398&ssl=1
