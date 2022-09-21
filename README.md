@@ -123,6 +123,7 @@ The various features of the cleaned dataset are explained below:
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [![Python][Python.org]][Python-url]
+* [![Jupyter][Jupyter.org]][Jupyter-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -335,6 +336,8 @@ Use this space to list resources you find helpful and would like to give credit 
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+[Jupyter.org]: https://img.shields.io/badge/jupyter-white?style=for-the-badge&logo=jupyter&logoColor=orange
+[Jupyter-url]: https://jupyter.org/
 [Python.org]: https://img.shields.io/badge/Python-0769AD?style=for-the-badge&logo=python&logoColor=yellow
 [Python-url]: https://python.org 
 [Pre-reg-1]: https://i0.wp.com/www.alphr.com/wp-content/uploads/2021/11/1-44.png?w=398&ssl=1
